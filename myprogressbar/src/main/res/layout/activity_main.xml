@@ -25,16 +25,31 @@
     <com.view.mark.myprogressbar.view.HorizontalProgressbarWithProgress
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:progress="100"
+        android:progress="80"
         android:padding="15dp"
         android:background="#c2c2c2"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         mark:progress_reach_color="#000000"
         mark:progress_text_offset="15dp"
         mark:progress_text_size="13sp"
-        mark:progress_unreach_height="10dp"
+        mark:progress_unreach_height="18dp"
         mark:progress_reach_height="18dp"
         mark:progress_text_color="#00f3ff"
-        mark:progress_unreach_color="#bbbbbb"/>
+        mark:progress_unreach_color="#ffffff"/>
 
+    <com.view.mark.myprogressbar.view.RoundProgressbarWithProgress
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:progress="80"
+        android:padding="5dp"
+        mark:radius="40dp"
+        android:background="#c2c2c2"
+        android:layout_marginTop="10dp"
+        mark:progress_reach_color="#000000"
+        mark:progress_text_offset="15dp"
+        mark:progress_text_size="13sp"
+        mark:progress_unreach_height="4dp"
+        mark:progress_reach_height="2dp"
+        mark:progress_text_color="#000000"
+        mark:progress_unreach_color="#ffffff"/>
 </LinearLayout>

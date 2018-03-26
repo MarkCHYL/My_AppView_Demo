@@ -20,4 +20,8 @@
         <attr name="progress_text_offset"></attr>
     </declare-styleable>
 
+    <!--定义的自定义的原型进度条的属性声明-->
+    <declare-styleable name="RoundProgressbarWithProgress">
+        <attr name="radius" format="dimension"></attr>
+    </declare-styleable>
 </resources>
